@@ -5,6 +5,10 @@
 	<groupId>iut.sae-s2.02-2024</groupId>
 	<artifactId>SAE-Algo</artifactId>
 	<version>1.0</version>
+	<packaging>pom</packaging>
+	<modules>
+		<module>demo</module>
+	</modules>
 	<name>SAE Algo</name>
 
 	<properties>

@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class RLEConsole{
 
-    public static void main(String[] args){
+    public static void main(String[] args) throws AlgoException{
         String in="";
         
         if(args.length>0){
@@ -18,8 +18,9 @@ public class RLEConsole{
 
             scanner.close();
         }
-
-        System.out.println("Entrée : "+in);
+        System.out.println("Entrée : " + in);
         System.out.println("Sortie : "+ Algo.RLE(in));
     }
 }
+
+

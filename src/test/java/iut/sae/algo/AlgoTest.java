@@ -16,6 +16,8 @@ public class AlgoTest extends TestCase{
    @Test
    public void testRLE(){
       assertEquals("", Algo.RLE("") );
+
+
       
       assertEquals("1a1b1c", Algo.RLE("abc"));
       assertEquals("1a2b3c", Algo.RLE("abbccc"));
