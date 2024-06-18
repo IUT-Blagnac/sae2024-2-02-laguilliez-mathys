@@ -2,7 +2,7 @@ package iut.sae.algo;
 
 import java.util.Scanner;
 
-import iut.sae.algoTest.efficacite17;
+
 
 public class RLERecursifConsole{
 

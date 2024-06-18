@@ -2,7 +2,7 @@ package iut.sae.algo;
 
 import java.util.Scanner;
 
-import iut.sae.algoTest.efficacite17;
+
 
 public class RLEConsole{
 
@@ -21,7 +21,7 @@ public class RLEConsole{
             scanner.close();
         }
         System.out.println("Entrée : " + in);
-        System.out.println("Sortie : "+ efficacite17.runLengthEncode(in));
+        System.out.println("Sortie : "+ Algo.RLE(in));
     }
 }
 
