@@ -2,6 +2,8 @@ package iut.sae.algo;
 
 import java.util.Scanner;
 
+import iut.sae.algoTest.efficacite17;
+
 public class RLERecursifConsole{
 
     public static void main(String[] args){
@@ -27,7 +29,7 @@ public class RLERecursifConsole{
         try{
             System.out.println("Entrée : "+in);
             System.out.println("Itérations : "+iterations);
-            System.out.println("Sortie : "+ Algo.RLE(in, iterations));
+            System.out.println("Sortie : "+ efficacite17.runLengthEncode(in, iterations));
         }
         catch(AlgoException e){
             System.err.println("Erreur lors de la transformation");

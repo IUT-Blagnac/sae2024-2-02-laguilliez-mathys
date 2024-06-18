@@ -1,6 +1,8 @@
 package iut.sae.algo;
 
 import org.junit.Test;
+
+import iut.sae.algoTest.efficacite17;
 import junit.framework.TestCase;
 
 
@@ -15,15 +17,15 @@ public class AlgoTest extends TestCase{
  */
    @Test
    public void testRLE(){
-      assertEquals("", Algo.RLE("") );
+      assertEquals("", efficacite17.runLengthEncode("") );
 
 
       
-      assertEquals("1a1b1c", Algo.RLE("abc"));
-      assertEquals("1a2b3c", Algo.RLE("abbccc"));
-      assertEquals("3a1b2a", Algo.RLE("aaabaa"));
-      assertEquals("1a1A1a", Algo.RLE("aAa"));
-      assertEquals("9W4W", Algo.RLE("WWWWWWWWWWWWW"));
+      assertEquals("1a1b1c", efficacite17.runLengthEncode("abc"));
+      assertEquals("1a2b3c", efficacite17.runLengthEncode("abbccc"));
+      assertEquals("3a1b2a", efficacite17.runLengthEncode("aaabaa"));
+      assertEquals("1a1A1a", efficacite17.runLengthEncode("aAa"));
+      assertEquals("9W4W", efficacite17.runLengthEncode("WWWWWWWWWWWWW"));
 
    }
 
@@ -67,7 +69,7 @@ public class AlgoTest extends TestCase{
    @Test
    public void testUnRLE(){
       try{
-         assertEquals("", Algo.unRLE(""));
+         assertEquals("", algo.unRLE(""));
          assertEquals("abc", Algo.unRLE("1a1b1c"));
          assertEquals("abbccc", Algo.unRLE("1a2b3c"));
          assertEquals("aaabaa", Algo.unRLE("3a1b2a"));
