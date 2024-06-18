@@ -69,7 +69,7 @@ public class AlgoTest extends TestCase{
    @Test
    public void testUnRLE(){
       try{
-         assertEquals("", algo.unRLE(""));
+         assertEquals("", Algo.unRLE(""));
          assertEquals("abc", Algo.unRLE("1a1b1c"));
          assertEquals("abbccc", Algo.unRLE("1a2b3c"));
          assertEquals("aaabaa", Algo.unRLE("3a1b2a"));

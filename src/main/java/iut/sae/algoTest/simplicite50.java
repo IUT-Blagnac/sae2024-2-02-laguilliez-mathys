@@ -1,6 +1,7 @@
-//package iut.sae.algo;
+package iut.sae.algoTest;
+import iut.sae.algo.*;
 
-public class simplicite{
+public class simplicite50{
     public static String RLE(String in){
         int numero_finChaine = in.length();
         String resultat_compression = "";

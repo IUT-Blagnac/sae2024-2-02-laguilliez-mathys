@@ -1,5 +1,7 @@
+package iut.sae.algoTest;
 
-public class Sobriete {
+
+public class sobriete54 {
 
     public static void main(String[] args) {
         String message = "WWWWWWWWWBWWWWWWWWBBBWWWBWWWWWWW";
