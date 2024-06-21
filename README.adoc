@@ -45,12 +45,12 @@ endif::[]
 
 === De la solution...
 
-* LAST NAME : DOE
-* First name : John
+* LAST NAME : Laguilliez
+* First name : Mathys
 * TD group : 
 - [ ] 1
-- [x] 2
-- [ ] 3
+- [ ] 2
+- [X] 3
 - [ ] 4
 
 // == Objectives
@@ -167,9 +167,7 @@ Vous utiliserez le dépôt initial qui vous aura été attribué via classroom p
 [options="header"]
 |==========================================================================
 | #    | lien                                                     | langage  | catégorie 
-| 1    | link:src/main/java/exercice/Exercice1.java[meilleur java]| Java     | Simplicité
-| 2    | link:src/main/java/exercice/Exercice2.java[meilleur C]    | C     | Efficacité
-| ...  | ...                                                      | ...      | ...      
+| 1    | link:src/main/java/iut/sae/algo/Algo.java[algo.java]     | Java     | Simplicité      
 |==========================================================================
 
 === Phase 2 (deadline : **vendredi 21 juin 2024** à minuit)
